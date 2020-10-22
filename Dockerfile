@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 ARG RUBY_PATH=/usr/local/
-ARG RUBY_VERSION=2.5.5
+ARG RUBY_VERSION=2.5.8
 
 RUN apt-get update -qq && \
     apt-get install -y build-essential \
