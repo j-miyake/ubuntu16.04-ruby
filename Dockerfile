@@ -1,4 +1,5 @@
 FROM buildpack-deps:xenial-curl
+USER root
 ARG RUBY_PATH=/usr/local/
 ARG RUBY_VERSION=2.6.6
 
