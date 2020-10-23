@@ -1,10 +1,9 @@
-FROM ubuntu:16.04
+FROM buildpack-deps:xenial-curl
 ARG RUBY_PATH=/usr/local/
 ARG RUBY_VERSION=2.5.5
 
 RUN apt-get update -qq && \
     apt-get install -y build-essential \
-                       curl \
                        git \
                        less \
                        tzdata \
